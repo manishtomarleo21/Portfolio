@@ -25,11 +25,17 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import arcgate from "./company/arcgate.png"
+import beyoung from "./company/beyoung.png"
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import amazon from "./amz.png"
+import razor from "./razor.png"
+import bolt from "./bolt.png"
+import reactlator from "./reactlator.png"
+import extension from "./extension.png"
 import www from "./www.png"
 import news from "./news.png"
 
@@ -65,4 +71,10 @@ export {
   amazon,
   www,
   news,
+  arcgate,
+  beyoung,
+  razor,
+  bolt,
+  reactlator,
+  extension,
 };

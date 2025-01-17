@@ -25,6 +25,12 @@ import {
     threejs,
     amazon,
     news,
+    arcgate,
+    beyoung,
+    razor,
+    bolt,
+    reactlator,
+    extension,
   } from "../assets";
   
   export const navLinks = [
@@ -118,55 +124,29 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Research Analyst",
+      company_name: "ArcGate",
+      icon: arcgate,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "Sep 2018 - Jan 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Role: Conduct in-depth research and analysis to provide valuable insights and data-driven recommendations.",
+        "Data Collection: Gather, organize, and analyze data from various sources, including databases, surveys, and literature",
+        "Market Research: Perform market and industry analysis to identify trends, opportunities, and threats.",
+        "Competitor Analysis: Analyze competitors' strategies, products, and performance to inform decision-making.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Customer Service",
+      company_name: "BeYoung",
+      icon: beyoung,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "August 2020 - Aug 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Role: Collaborate with the Customer Representative Management team to ensure excellent customer service and satisfaction.",
+        "Customer Support: Provide timely and effective responses to customer inquiries, complaints, and requests.",
+        "Issue Resolution: Assist in resolving customer issues, concerns, and escalations in a professional and efficient manne.",
+        "Data Analysis: Analyze customer feedback and data to identify trends and areas for improvement.",
       ],
     },
   ];
@@ -200,12 +180,108 @@ import {
   
   const projects = [
     {
+      name: "Razor - The Game Engine",
+      description:
+        "Razor is an early-stage interactive application and rendering engine designed primarily for Windows. While the project is still in its infancy, nearly every aspect of the repository is being developed as a hands-on learning experience and out of personal interest.",
+      tags: [
+        {
+          name: "C++",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "OpenGL",
+          color: "green-text-gradient",
+        },
+        {
+          name: "GLAD",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Imgui",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: razor,
+      source_code_link: "https://github.com/manishtomarleo21/Razor",
+      host_link: null
+    },
+    {
+      name: "Bolt - Chat App",
+      description:
+        "Bolt ChatApp is a full-stack real-time chat application built using modern web technologies. The app allows users to send messages, share media, and interact with an AI-powered chat assistant using Google Gemini AI.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "NodeJS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Tailwind CSS",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "MongoDB",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: bolt,
+      source_code_link: "https://github.com/manishtomarleo21/Bolt-ChatApp",
+      host_link: "https://bolt-chatapp.onrender.com/login"
+    },
+    {
+      name: "ReactLator Transcribe-Translator App",
+      description:
+        "ReactLator is a React-based web application that allows users to record, transcribe, and translate audio using cutting-edge technologies.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Xenova/Transformers",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Tailwind CSS",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: reactlator,
+      source_code_link: "https://github.com/manishtomarleo21/ReactLator-Transcribe-Translator-App",
+      host_link: "https://react-lator-transcribe-translator-app.vercel.app/"
+    },
+    {
+      name: "YouTube Zoom Chrome Extension",
+      description:
+        "Enhance your YouTube experience with smooth zoom and pan controls. This Chrome extension allows you to zoom in and out on YouTube videos, and even pan the video while zoomed in, all with simple keyboard and mouse gestures.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Manifest",
+          color: "green-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: extension,
+      source_code_link: "https://github.com/manishtomarleo21/YouTube-Zoom-Extension",
+      host_link: null
+    },
+    {
       name: "Amazon clone",
       description:
         "Amazon clone streamlines shopping with product categories, enabling merchants to list multiple products in the same group for easy exploration by user.",
       tags: [
         {
-          name: "react",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
