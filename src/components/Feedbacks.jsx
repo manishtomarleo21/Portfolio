@@ -8,7 +8,7 @@ const FeedbackCard = ({index, testimonial, name, designation, company, image}) =
   return(
     <motion.div
       variants={fadeIn("", "spring", index * 0.5, 0.75)}
-      className="bg-[#1a1a1a] border border-red-600 p-10 rounded-3xl xs:w-[320px] w-full transform transition-transform hover:scale-105 " 
+      className="bg-[#1a1a1a] border border-red-600 p-10 rounded-3xl xs:w-[320px] w-full transform transition-transform hover:scale-105" 
     >
       <p className="text-red-500 font-black text-[48px]">"</p>
 
